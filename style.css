@@ -1,0 +1,408 @@
+/* CSS Document */
+
+
+            body {
+				background-image: url(background1.png), url(background2.png);
+                background-color: #A5ADB3;
+                background-position: center 0px;
+                background-repeat: no-repeat, repeat-x;
+                font-family: MuseoSans, Arial, sans-serif;	
+			}
+			
+			#center {
+				margin: 0 auto;
+				position: relative;
+				width: 1030px;
+			}
+			
+			#header {
+				float: left;
+				width: 730px;
+                height: 60px;
+                margin-left: 51px;
+                margin-top: 25px;
+			}
+			
+			.menu ul {
+				display: block;
+				list-style-type: disc;
+				padding:0;
+				margin: 0;
+				float: left;
+				width: auto;
+			}
+			
+			.menu ul li {
+				float: left;
+				list-style-type: none;
+				padding: 0px 0px;
+				border: 1px;
+			}
+            
+			.first_main img {
+				float: left;
+				margin-top: 1000px;
+				width: 730px;	
+			}
+			
+			#content {
+				float: left;
+				width: 700px;
+				background-color: white;
+				margin-left: 51px;
+				padding-left: 15px;
+				padding-right: 15px;
+                -webkit-box-shadow: -3px 14px 49px 2px rgba(0,0,0,0.75);
+                -moz-box-shadow: -3px 14px 49px 2px rgba(0,0,0,0.75);
+                box-shadow: -3px 14px 49px 2px rgba(0,0,0,0.75);
+			}
+			
+			.menu {
+				float: left;
+				width: 700px;
+			}
+			
+			.first_main {
+				float: left;
+				width: 709px;
+				height: 120px;
+				background-image: url(logo_background.png);
+				background-position: 0px 0px;
+				background-repeat: no-repeat;
+			}
+			
+			.second_main {
+				float: left;
+				width: 709px;
+				height: 200px;
+				background-image: url(woman.png);
+                background-position: 0px 0px;
+				background-repeat: no-repeat;
+                padding-bottom: 10px;
+			}
+			
+			.first_box {
+				float: left;
+				width: 350px;
+				height: 128px;
+				background-color: yellow;
+				margin-top: 10px;
+                background-image: url(box_background.png);
+				background-position: 0px 0px;
+				background-repeat: no-repeat;
+			}
+			
+			.second_box {
+				float: right;
+				width: 350px;
+				height: 128px;
+				background-image: url(box_background2.png);
+				margin-top: 10px;
+			}
+			
+			.article {
+				float: left;
+				width: 700px;
+				height: 250px;
+				margin-top: 15px;
+                background: -webkit-linear-gradient(#E4E4E4, white 85px, white);
+                background-image: -o-linear-gradient(#E4E4E4, white 85px, white); 
+                background-image: -moz-linear-gradient(#E4E4E4, white 85px, white);
+                background-image: linear-gradient(#E4E4E4, white 85px, white);
+			}
+			
+			.content2 {
+				float: right;
+				width: 200px;
+				height: 1250px;
+				margin-right: 49px;
+                -webkit-box-shadow: 11px 9px 31px -6px rgba(0,0,0,0.75);
+                -moz-box-shadow: 11px 9px 31px -6px rgba(0,0,0,0.75);
+                box-shadow: 11px 9px 31px -6px rgba(0,0,0,0.75);
+			}
+			
+			#last_article {
+				margin-bottom: 50px;
+			}
+			
+			#footer {
+				background-color: #cc0000;
+				float: left;
+				margin-left: 51px;
+				width: 425px;
+				height: 60px;
+                -webkit-box-shadow: inset 6px 182px 56px -200px rgba(0,0,0,0.75);
+                -moz-box-shadow: inset 6px 182px 56px -200px rgba(0,0,0,0.75);
+                box-shadow: inset 6px 182px 56px -200px rgba(0,0,0,0.75);
+                margin-bottom: 300px;
+                }
+            
+            .arrow_background {
+                float: right;
+                margin-top: 10px;
+                margin-right: 10px;
+            }
+            
+            .arrow {
+                float: right;
+                margin-top: 25px;
+				margin-right: -29px; 
+            }
+            
+            .telephone_background {
+                float: right;
+                margin-top: 10px;
+                margin-right: 10px;
+            }
+            
+            .telephone {
+                float: right;
+                margin-top: 22px;
+				margin-right: -30px;
+            }
+            
+            .current {
+                padding: 8px;
+                padding-left: 10px;
+                padding-right: 10px;
+				line-height: 40px;
+				text-decoration: none;
+				background-color: #cccc33;
+				display: inline-block;
+                color: white;
+                margin-top: 4px;
+                -webkit-box-shadow: inset -31px -31px 21px -32px rgba(0,0,0,0.64);
+                -moz-box-shadow: inset -31px -31px 21px -32px rgba(0,0,0,0.64);
+                box-shadow: inset -31px -31px 21px -32px rgba(0,0,0,0.64);
+            }
+            
+            .other {
+                padding: 5px;
+                padding-left: 10px;
+                padding-right: 10px;
+				line-height: 40px;
+				text-decoration: none;
+				background-color: #cc0000;
+				display: inline-block;  
+                color: white; 
+                margin-top: 10px;
+                -webkit-box-shadow: inset -31px -31px 21px -32px rgba(0,0,0,0.64);
+                -moz-box-shadow: inset -31px -31px 21px -32px rgba(0,0,0,0.64);
+                box-shadow: inset -31px -31px 21px -32px rgba(0,0,0,0.64);
+                min-width: 46px;
+            }
+            
+            .menu_end {
+                position: absolute;
+                width: 350px;
+                height: 50px;
+                margin-top: 10px;
+                margin-left: 380px;
+                background-color: #cc0000;
+                z-index: -1;
+            }
+            
+            h1 {
+                color: #666666;
+                font-size: 25px;
+                margin-left: 65px;
+                margin-top: 38px;
+            }
+            
+            .first_main h2 {
+                color: #cc0000;
+                width: 334px;
+                margin-left: 347px;
+                margin-top: -56px;
+            }
+            
+            .first_box h3 {
+                position: absolute;
+                z-index: 10;
+                color: white;
+                margin-top: 15px;
+                margin-left: 20px;
+                font-weight: 400;
+                font-size: 20px;
+            }
+            
+            .second_box h3 {
+                position: absolute;
+                z-index: 10;
+                color: white;
+                margin-top: 15px;
+                margin-left: 20px;
+                font-weight: 400;
+                font-size: 20px;
+            }
+            .first_box p {
+				color: white;
+				width: 300px;
+				margin-top: 45px;
+				margin-left: 15px;
+            }
+            
+            .second_box p {
+				color: white;
+				width: 300px;
+				margin-top: 45px;
+				margin-left: 15px;
+			}
+            
+            .article h3 {
+				color: #666666;
+				margin-left: 10px;
+				font-size: 16px;
+			}
+			
+			.img_date {
+				margin-left: 15px;
+			}
+			
+			.update {
+				color: #666666;
+				margin-left: 34px;
+				font-size: 13px;
+				margin-top: -15px;;		
+			}
+            
+            .article_telephone {
+				float: left;
+				margin-left: 15px;
+				margin-top: 15px;
+			}
+			
+			.article_text {
+				color: #666666;
+				margin-left: 205px;
+				margin-top: 35px;
+				width: 475px;
+				text-align: justify;
+			}
+			
+			.more_info_box {
+				background-color: #666666;
+				width: 140px;
+				height: 22px;
+				margin-left: 540px;
+                cursor: pointer;
+			}
+			
+			.more_info_icon {
+				margin-left: 5px;
+				margin-top: 6px;	
+			}
+			
+			.more_info_text {
+				color: white;
+				margin-top: -17px;
+				font-size: 12px;
+				font-weight: 600;
+				margin-left: 43px;	
+			}
+            
+            .last_article {
+                margin-bottom: 70px;
+            }
+            
+            .info_box {
+                background-color: white;
+                float: left;
+                width: 200px;
+                -webkit-box-shadow: inset 15px -2px 49px -28px rgba(0,0,0,0.75);
+                -moz-box-shadow: inset 15px -2px 49px -28px rgba(0,0,0,0.75);
+                box-shadow: inset 15px -2px 49px -28px rgba(0,0,0,0.75);
+            }
+            
+            .info_icon {
+                margin-left: 75px;
+                margin-top: 25px;
+            }
+            
+            .info_box a {
+                float: left;
+                width: 110px;
+                font-size: 13px;
+                margin-left: 49px;
+                margin-top: 15px;
+                color: #cccccc;
+                margin-bottom: 15px;
+            }
+            
+            .line {
+                margin-left: 15px;
+            }
+            
+            .third_icon {
+                margin-bottom: 20px;
+            }
+            
+            .kontakt_box {
+                background-color: white;
+                float: left;
+                width: 200px;
+                height: 300px;
+                -webkit-box-shadow: inset 6px 9px 48px -16px rgba(0,0,0,0.75);
+                -moz-box-shadow: inset 6px 9px 48px -16px rgba(0,0,0,0.75);
+                box-shadow: inset 6px 9px 48px -16px rgba(0,0,0,0.75);
+            }
+            
+            .kontakt_icon_background {
+                margin-top: 15px;
+                margin-left: 15px;
+                float: left;
+            }
+            
+            .kontakt_icon {
+                margin-top: 29px;
+                margin-left: -29px;
+                float: left;
+            }
+            
+            .kontakt_title {
+                font-size: 18px;
+                margin-top: 25px;
+                margin-left: 65px;
+                color: #cccc66;
+            }
+            
+            .kontakt_bold_text {
+                float: left;
+                font-size: 15px;
+                font-weight: bold;
+                padding-right: 75px;
+                margin-left: 10px;
+            }
+            
+            .kontakt_text {
+                font-size: 13px;
+                padding-right: 60px;
+                margin-left: 10px;
+            }
+            
+            .kontakt_email {
+                text-decoration: underline;
+                color: red;
+            
+            }
+            
+            .text_footer {
+                color: white;
+                font-size: 11px;
+                margin-left: 15px;
+                float: left;
+                height: 0px;
+            }
+            
+            .a_footer {
+                color: white;
+            }
+            
+            .underline_footer {
+                text-decoration: underline;
+            }
+            
+            .current_span {
+                position: relative;
+                top: 2px;
+            }
